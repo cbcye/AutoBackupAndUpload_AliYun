@@ -1,5 +1,5 @@
 #Delete Older Backup Files
-find /www/backup -type d -ctime +5 -exec rm -rf {} \
+find /www/backup -type d -ctime +5 -exec rm -rf {} \;
 
 #Define Date
 DATE_NAME=`date +%y%m%d`
